@@ -1,0 +1,18 @@
+{
+  "name": "large_number_jscopyer_demo",
+  "version": "1.0.3",
+  "description": "大整数相加打包jscopyer的demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "prepublish": "webpack"
+  },
+  "author": "jscopyer",
+  "license": "ISC",
+  "devDependencies": {
+    "terser-webpack-plugin": "^4.2.3",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  }
+}
